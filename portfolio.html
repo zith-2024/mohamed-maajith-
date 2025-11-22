@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mohamed Maajith Maraicar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <div class="logo-icon">MM</div>
+                    <span class="logo-text">Mohamed Maajith</span>
+                </div>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contactme.html">Contact</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section class="page-section">
+        <div class="container">
+            <div class="page-header">
+                <h1>My Portfolio</h1>
+                <div class="title-underline"></div>
+                <p class="page-subtitle">Explore my recent projects and accomplishments in web development and design</p>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card" data-project="1">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1654085888334-bc4b03bcbf10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwbW90b3JjeWNsZSUyMGdhcmFnZXxlbnwxfHx8fDE3NjM1MzQ0Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+                             alt="Two Stroke Garage">
+                        <div class="portfolio-overlay">
+                            <button class="view-details-btn">
+                                View Details
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">E-commerce Website</span>
+                        <h3>Two Stroke Garage - Vintage Bike Spare Parts</h3>
+                        <p>A comprehensive e-commerce platform for vintage motorcycle spare parts.</p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Product Catalog</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card" data-project="2">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1658297063569-162817482fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBzaG9wcGluZyUyMGVjb21tZXJjZXxlbnwxfHx8fDE3NjM0NzA4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+                             alt="Online Clothing Page">
+                        <div class="portfolio-overlay">
+                            <button class="view-details-btn">
+                                View Details
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">E-commerce Website</span>
+                        <h3>Online Clothing Page - E-commerce Platform</h3>
+                        <p>Responsive shopping website with modern user interface and cart functionality.</p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card" data-project="3">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1669062897193-f8a4215c2033?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc2MzQ4OTcwNXww&ixlib=rb-4.1.0&q=80&w=1080" 
+                             alt="Portfolio Website">
+                        <div class="portfolio-overlay">
+                            <button class="view-details-btn">
+                                View Details
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Personal Project</span>
+                        <h3>Portfolio Website</h3>
+                        <p>Modern portfolio website showcasing skills and projects.</p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card" data-project="4">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZ3xlbnwxfHx8fDE3NjM1MTQxMTN8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+                             alt="Web Development Projects">
+                        <div class="portfolio-overlay">
+                            <button class="view-details-btn">
+                                View Details
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Academic Projects</span>
+                        <h3>Web Development Projects</h3>
+                        <p>Various web development projects demonstrating technical skills.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Project Title</h2>
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="Project">
+                <div class="modal-details">
+                    <div class="detail-section">
+                        <h3>Role</h3>
+                        <p id="modalRole" class="highlight-text">Role</p>
+                    </div>
+                    <div class="detail-section">
+                        <h3>Project Details</h3>
+                        <p id="modalDetails">Details</p>
+                    </div>
+                    <div class="detail-section">
+                        <h3>Key Achievements</h3>
+                        <ul id="modalAchievements"></ul>
+                    </div>
+                    <div class="detail-section">
+                        <h3>Technologies Used</h3>
+                        <div id="modalTech" class="modal-tech-tags"></div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Live Demo
+                        </button>
+                        <button class="btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">
+                        <div class="logo-icon">MM</div>
+                        <span class="logo-text">Mohamed Maajith</span>
+                    </div>
+                    <p>Computer Science graduate passionate about web development, Python programming and IT support.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutme.html">About</a></li>
+                        <li><a href="skill.html">Skills</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contactme.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Get in Touch</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:mohamedmaazith@gmail.com">mohamedmaazith@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919585010301">+91 9585010301</a>
+                        </li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mohamed-maajith-296956" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mohamed Maajith Maraicar. All rights reserved.</p>
+                <button class="back-to-top" id="backToTop" aria-label="Back to top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
